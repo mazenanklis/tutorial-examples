@@ -41,6 +41,12 @@ class Employee {
       salary += raise;
    }
 
-   // Add a method to the Employee class (what method you think an employee would need?), and show to TA for this week's tutorial mark
+   // Add a method to the Employee class (what method you think)
+
+   // my added method to calculate weekly salary. - Mazen
+   public double weeklySalary ()
+   {
+      return salary / 52; 
+   }
 
 }
